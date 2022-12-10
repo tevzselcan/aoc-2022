@@ -45,8 +45,6 @@ for(let i = 0; i < television.length; i++){
 console.log(televisionDisplay);
 
 
-
-
 function moveCycleCRT(cycleCounter, xCounter){
     if ([xCounter - 1, xCounter, xCounter + 1].includes(cycleCounter % 40)) {
         television[Math.floor((cycleCounter + 1) / 40)][((cycleCounter) % 40)] = "#";
